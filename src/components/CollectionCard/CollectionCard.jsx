@@ -59,21 +59,6 @@ function CollectionCard(props) {
 
 
 
-    // const editCollection = async (e) => {
-    //     e.preventDefault();
-    //     let token = window.localStorage.getItem("token");
-    //     let urlPath = "collection/" + collectionData.id
-    
-    //     const response = await fetch(`${process.env.REACT_APP_API_URL}${urlPath}/editcollection/:id`, {
-    //         method: "put",
-    //         headers: {
-    //             Authorization: `Token ${token}`,
-    //         },
-    //     });
-
-    //     window.location.reload();
-    // }
-
 
      //////////////////////////// return ////////////////////////////   
 
